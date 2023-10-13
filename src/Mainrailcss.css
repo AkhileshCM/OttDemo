@@ -1,0 +1,56 @@
+ .mainrails{
+    
+    /* position:static; */
+    position: absolute;
+    margin-left: 180px;
+    /* position: fixed; */
+    margin-top: 550px;
+    width:100%;
+    height: fit-content;
+    color: white;
+    padding: 5px;
+
+}
+.mainrails h2{
+    width: fit-content;
+}
+
+.poster{
+    
+    display: flex;
+    flex-wrap: nowrap;
+   
+    min-width: 200px;
+    overflow-x: scroll;
+    
+    gap:20px;
+    
+
+}
+.poster::-webkit-scrollbar{
+    display: none;
+}
+
+.poster img{
+    width: 150px;
+    height:220px;
+    
+    
+}
+.wrap{
+    
+    display: inline-flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 30px;
+    transform: translateY(-400px);
+    transition: transform .7s ease;
+    
+}
+.poster2 img{
+    width: 150px;
+    height:200px;
+    border-radius: 5px;
+}
+
+
