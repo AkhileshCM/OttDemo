@@ -1,0 +1,110 @@
+.topsection{
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 50px;
+    padding-left: 10%;
+}
+.main-image{
+    width: 200px;
+    height: 300px;
+}
+.forimage{
+    width: fit-content;
+    height: fit-content;
+}
+
+.rounded{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    background-color:#D9981E ;
+    border-radius: 5px;
+
+}
+.rounded h5{
+    height: fit-content;
+    padding: 0px;
+    margin-block-start:2px;
+    margin-block-end:2px;
+}
+.inline{
+    display: flex;
+    gap: 10px;
+   
+   
+ }
+ .playtrailer{
+    background-color: #D9981E;
+    display: inline-flex;
+    gap: 5px;
+   min-height: 30px;
+    align-items: center;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+ }
+ .addtofav{
+    background-color: #D9981E;
+    display: inline-flex;
+    margin-left: 10px;
+    
+    gap: 5px;
+   
+   height: 30px;
+    align-items: center;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+ }
+ .tick{
+    background-color: #D9981E;
+    
+    margin-left: -130px;
+    
+    gap: 5px;
+   
+   height: 33px;
+    align-items: center;
+    border-radius: 5px;
+    border-style: none;
+    
+
+ }
+ .sugestion-rails{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ .sugestion-rails::-webkit-scrollbar{
+    display: none;
+ }
+ .poster8{
+    width: fit-content;
+ }
+ .poster8 img{
+    height: 300px;
+    width: 200px;
+ }
+ .bottom-suggest h4{
+    margin-left: 10px;
+ }
+.playtrailer a{
+    text-decoration: none;
+    color: black;
+}
+.backarrow{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    display: inline-flex;
+    gap: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+

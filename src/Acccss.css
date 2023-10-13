@@ -1,0 +1,82 @@
+
+.nav{
+    position: absolute;
+    top: 0px;
+}
+
+.maindetail{
+    width: 100%;
+    height: fit-content;
+   left: 130px;
+  
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Poppins', sans-serif;
+    
+    position: relative;
+    
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.bckimgholder{
+   
+    position: relative;
+    margin-top: 10px;
+    height: 300px;
+    
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png");
+}
+.fordp{
+    height: 200px;
+    width: 200px;
+   
+    position: relative;
+    bottom: 120px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWn-ljTrphLrl563jMYzDOkpXkoqot5XjYEw&usqp=CAU");
+    left: 70px;
+    border-radius: 50%;
+}
+
+
+.forsignout{
+
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    margin-left: -20%;
+
+
+}
+.forsignot{
+    width: 30%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.mylist{
+    min-height: 150px;
+    margin-top: -90px;
+    
+    margin-bottom: 50px;
+}
+.favmovielist{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    
+    gap: 10px;
+    overflow-x: auto;
+}
+.favmovielist::-webkit-scrollbar{
+    display: none;
+}
+.accountrails{
+    max-width: 200px;
+    max-height: 250px;
+}

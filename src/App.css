@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  
+}
+.App .text{
+  width: 200px;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  
+  
+  
+  
+  z-index: 1;
+}
+.App span{
+  cursor: pointer;
+  color: #0E21A0;
+}
+@media screen and(min-height:150px) {
+  .App p{
+    
+    top:8%;
+    left: 40%;
+  }
+}
+#sgnout{
+   position: absolute;
+   bottom: 40px;
+   left: 40px;
+   z-index: 2;
+   
+   
+}
+#sgnout button{
+  border-radius: 2px;
+  border-style: none;
+  height: 20px;
+  padding: 3px;
+  
+}
+.signpage{
+  width: 450px;
+  height: 400px;
+  background-color:rgb(226, 86, 86);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex:50%;
+  box-sizing: border-box;
+  padding: 100px;
+  gap: 20px;
+  position: absolute;
+  top: 200px;
+  left:50%;
+  margin-left: -225px;
+
+}
