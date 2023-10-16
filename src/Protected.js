@@ -5,7 +5,7 @@ const Protected = ({ isloggedin, children }) => {
     
         
     
-    if (isloggedin) {
+    if (user) {
       console.log('true');
     return children;
         
