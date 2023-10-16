@@ -6,6 +6,7 @@ function SignIn(props) {
     const [password,setpassword]=useState("")
     const userinp=(e)=>{
         setusername(e.target.value)
+        localStorage.setItem("username","abcd")
 
 
     }
