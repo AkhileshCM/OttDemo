@@ -1,7 +1,7 @@
 import { Navigate } from "react-router-dom";
 const Protected = ({ isloggedin, children }) => {
     console.log('isloggedin', isloggedin)
-    const user=JSON.parse(localStorage.getItem("username"))
+    const user=localStorage.getItem("username")
     
         
     
