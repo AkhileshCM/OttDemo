@@ -12,6 +12,7 @@ import Protected from './Protected';
 import Account from './Account';
 import Ttrailer from './Ttrailer';
 import SignIn from './SignIn';
+import Video from "./Video"
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path='/details' element={<Moviedetail/>}/>
         <Route path='/account' element={<Account/>}/>
         <Route path='/trailer' element={<Trailer/>}/>
+        <Route path='/video' element={<Video/>}/>
         <Route path='/romance' element={<Romance/>}/>
         <Route path='/favourites' element={<Favourites/>}/>
         <Route path='/searchpage' element={<Searchpage/>}/>

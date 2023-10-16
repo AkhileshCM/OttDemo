@@ -168,7 +168,7 @@ const trailernav=useNavigate()
                                      </div>
                              </div>
                              <button id='playtrailerr'  className='playtrailer' onClick={(e)=>{e.preventDefault()
-                            trailernav("/trailer",{state:obj["title"]})
+                            trailernav("/video",{state:obj["title"]})
                             }}>
                                  <BiPlayCircle/>
                                  <a href={link}>Play Trailer</a>
