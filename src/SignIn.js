@@ -15,7 +15,7 @@ function SignIn(props) {
         
     }
     const navigate=useNavigate()
-    const handle=()=>{
+    const handle=(e)=>{
         e.preventDefault()
         if(username=="abcd" && password=="abcd"){
             navigate("/home")
