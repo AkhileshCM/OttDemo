@@ -18,9 +18,10 @@ function SignIn(props) {
     const handle=(e)=>{
         e.preventDefault()
         if(username=="abcd" && password=="abcd"){
+            localStorage.setItem("logged",true)
             navigate("/home")
             console.log("passed")
-            localStorage.setItem("logged",true)
+            
         }
 
     }
