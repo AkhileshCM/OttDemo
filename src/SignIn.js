@@ -6,7 +6,7 @@ function SignIn(props) {
     const [password,setpassword]=useState("")
     const userinp=(e)=>{
         setusername(e.target.value)
-        localStorage.setItem("username","abcd")
+        
 
 
     }
@@ -19,6 +19,7 @@ function SignIn(props) {
     const handle=(e)=>{
         e.preventDefault()
         if(username=="abcd" && password=="abcd"){
+            localStorage.setItem("username","abcd")
             localStorage.setItem("logged",true)
             navigate("/home")
             console.log("passed")
